@@ -6,7 +6,7 @@ const searchBar = (props) => {
   function handleChange(e) {
     let { name, value } = e.target;
     {props.productSearch(value)};
-    console.log(e.target);
+    // console.log(e.target);
   }
   return (
     <div>
